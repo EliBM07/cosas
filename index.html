@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para ti ♡</title>
+<style>
+body {
+  margin: 0;
+  padding: 30px 18px;
+  background: #180f20;
+  color: #fff0f5;
+  font-family: Georgia, serif;
+  line-height: 1.9;
+}
+main {
+  max-width: 720px;
+  margin: 60px auto;
+}
+header, footer { text-align: center; }
+h1 {
+  font-size: clamp(38px, 8vw, 65px);
+  font-weight: normal;
+  line-height: 1.2;
+}
+h1, h2 { color: #ff9fbd; }
+.heart {
+  font-size: 65px;
+  animation: latido 1.5s infinite;
+}
+.carta {
+  padding: 28px;
+  border: 1px solid #ff9fbd44;
+  border-radius: 20px;
+  background: #ffffff08;
+  font-size: 18px;
+}
+button {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 30px;
+  background: #ff9fbd;
+  color: #281421;
+  cursor: pointer;
+  font-size: 15px;
+}
+#sorpresa { display: none; color: #ffb4cb; }
+@keyframes latido {
+  50% { transform: scale(1.12); }
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="heart">♡</div>
+  <h1>Porque eres<br>importante para mí</h1>
+  <p>Hay algo que quiero contarte desde el corazón.</p>
+  <a href="#carta" style="color:#ffb4cb">Lee mi carta ↓</a>
+</header>
+
+<section id="carta">
+<h2>Quiero que entiendas mi silencio</h2>
+<div class="carta">
+<p>Quiero que sepas que te quiero muchísimo y que eres una persona muy importante para mí. No quiero que malinterpretes mi distancia ni que pienses que dejaste de importarme.</p>
+
+<p>Aquel sábado me sentí un poco desplazado. Como tenemos pocas oportunidades de vernos, tenía muchas ganas de compartir ese tiempo contigo. Cuando te alejabas varias veces, me sentí apartado y no supe cómo explicártelo.</p>
+
+<p>También quiero ser sincero: sentí celos al verte con tu amigo. No te culpo por tener amistades ni quiero decirte con quién puedes hablar. Es algo que sentí y que necesito aprender a comunicar mejor.</p>
+
+<p>Creo que también tuve miedo de volver a ilusionarme. Lo que siento por ti es muy especial para mí y, precisamente por eso, me asusta que las cosas terminen doliéndome otra vez. No quiero que tengas que pagar por experiencias que viví antes ni hacerte responsable de mis miedos.</p>
+
+<p>En vez de hablar contigo tranquilamente, me quedé callado y me alejé. Sé que debí expresarme mejor y lo siento. No espero que adivines lo que pienso ni quiero sacar conclusiones sin escucharte.</p>
+
+<p>Solo quiero que sepas que me importas muchísimo. Me gustaría hablar contigo, escuchar cómo te sentiste tú y entendernos, sin culpas ni presiones.</p>
+
+<p style="color:#ff9fbd"><em>Te quiero mucho, y no quería dejarte sin una explicación de lo que pasó por mi corazón. ♡</em></p>
+</div>
+</section>
+
+<section style="text-align:center;margin-top:60px">
+<h2>Un pequeño recordatorio 💌</h2>
+<button onclick="document.getElementById('sorpresa').style.display='block'">
+  Pulsa aquí, bonita
+</button>
+<p id="sorpresa">Lo que siento por ti es sincero. Quiero aprender a expresarlo mejor, escucharte y respetar cómo te sientes tú también. ❤️</p>
+</section>
+<footer><p>Hecho con cariño, pensando en ti. ♡</p></footer>
+</main>
+</body>
+</html>
